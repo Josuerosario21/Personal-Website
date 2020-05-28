@@ -1,7 +1,7 @@
 {
-  "name": "devportfolio-template",
+  "name": "Josuerosario21",
   "version": "1.2.2",
-  "description": "",
+  "description": "Portfolio",
   "main": "js/scripts.js",
   "scripts": {
     "watch": "gulp watch"
@@ -14,7 +14,7 @@
     "coding",
     "dev"
   ],
-  "author": "Ryan Fitzgerald",
+  "author": "JosueRosario",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.9.0",
