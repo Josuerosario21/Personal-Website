@@ -538,7 +538,6 @@ footer {
 .vtimeline-point {
     position: relative;
     display: block;
-    vertical-align: top;
     margin-bottom: 30px;
 }
 
@@ -752,10 +751,10 @@ footer {
         border: none;
         margin-bottom: 10px;
         background: darken($base-color, 15%);
-        color: #fff;
+        color: rgb(8, 8, 8);
         @include transition();
         @include placeholder {
-            color: #fff;
+            color: rgb(8, 8, 8);
         }
 
         &:focus {
@@ -764,9 +763,16 @@ footer {
         }
     }
 
+    label {
+        text-align: left;
+        color: #fff;
+        display: block;
+    }
+
     textarea {
         height: 150px;
         resize: none;
+        margin-left: auto;
     }
 
 

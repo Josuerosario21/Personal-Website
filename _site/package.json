@@ -6,14 +6,6 @@
   "scripts": {
     "watch": "gulp watch"
   },
-  "keywords": [
-    "portfolio",
-    "personal",
-    "website",
-    "tech",
-    "coding",
-    "dev"
-  ],
   "author": "JosueRosario",
   "license": "MIT",
   "devDependencies": {
